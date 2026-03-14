@@ -6,7 +6,7 @@ Run from the repo root:
 import sys
 sys.path.insert(0, ".")
 
-from emotion import emotion, show_dashboard
+from checkemotion import emotion, show_dashboard
 
 
 @emotion

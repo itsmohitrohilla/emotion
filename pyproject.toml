@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name            = "emotion-ai"
-version         = "0.2.0"
+name            = "checkemotion"
+version         = "0.2.2"
 description     = "Assign emotional personalities to Python functions via AST + runtime analysis"
 readme          = "README.md"
 requires-python = ">=3.11"
@@ -19,7 +19,13 @@ dependencies = []
 dev = ["pytest", "pytest-cov"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["emotion"]
+packages = ["checkemotion"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "build>=1.4.0",
+    "twine>=6.2.0",
+]

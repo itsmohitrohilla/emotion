@@ -35,7 +35,7 @@
 ## Quick Demo
 
 ```python
-from emotion import emotion
+from checkemotion import emotion
 
 @emotion
 def calculate_total(numbers: list) -> float:
@@ -68,7 +68,7 @@ validate_user(42, "admin")
 ## Installation
 
 ```bash
-pip install emotion
+pip install checkemotion
 ```
 
 Or clone and run directly:
@@ -106,7 +106,7 @@ def my_function(x):
 ## Public API
 
 ```python
-from emotion import (
+from checkemotion import (
     emotion,              # decorator
     build_report,         # build_report(name) → FunctionReport
     all_reports,          # all_reports(sort_by="call_count") → list
