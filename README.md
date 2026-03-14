@@ -125,4 +125,3 @@ from checkemotion import (
 
 - Python 3.11+
 - Zero external dependencies — pure stdlib
-- **Optional**: [Ollama](https://ollama.ai) with `phi3.5:mini` for AI-generated descriptions
